@@ -1,0 +1,143 @@
+max_len: 512
+========== fold: 0 training ==========
+BackTranslation ['de', 'es', 'fr']
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-large",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 1024,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+Epoch 1 - avg_train_loss: 0.0320  avg_val_loss: 0.0220  time: 330s
+Epoch 1 - Score: 0.2096  Scores: [0.20961083647340337]
+Epoch 1 - Save Best Score: 0.2096 Model
+Epoch 2 - avg_train_loss: 0.0200  avg_val_loss: 0.0191  time: 324s
+Epoch 2 - Score: 0.1952  Scores: [0.19519501463113062]
+Epoch 2 - Save Best Score: 0.1952 Model
+Epoch 3 - avg_train_loss: 0.0154  avg_val_loss: 0.0199  time: 330s
+Epoch 3 - Score: 0.1995  Scores: [0.19949629275750333]
+Epoch 4 - avg_train_loss: 0.0099  avg_val_loss: 0.0193  time: 335s
+Epoch 4 - Score: 0.1963  Scores: [0.1963175422386236]
+Epoch 5 - avg_train_loss: 0.0073  avg_val_loss: 0.0186  time: 335s
+Epoch 5 - Score: 0.1930  Scores: [0.19297247746992227]
+Epoch 5 - Save Best Score: 0.1930 Model
+========== fold: 0 result ==========
+Score: 0.1930  Scores: [0.19297247746992227]
+========== fold: 1 training ==========
+BackTranslation ['de', 'es', 'fr']
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-large",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 1024,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+Epoch 1 - avg_train_loss: 0.0429  avg_val_loss: 0.0244  time: 327s
+Epoch 1 - Score: 0.2208  Scores: [0.22076345448019105]
+Epoch 1 - Save Best Score: 0.2208 Model
+Epoch 2 - avg_train_loss: 0.0186  avg_val_loss: 0.0202  time: 329s
+Epoch 2 - Score: 0.2010  Scores: [0.20098577840846807]
+Epoch 2 - Save Best Score: 0.2010 Model
+Epoch 3 - avg_train_loss: 0.0151  avg_val_loss: 0.0207  time: 323s
+Epoch 3 - Score: 0.2032  Scores: [0.203232264174025]
+Epoch 4 - avg_train_loss: 0.0118  avg_val_loss: 0.0190  time: 333s
+Epoch 4 - Score: 0.1951  Scores: [0.19506998722646512]
+Epoch 4 - Save Best Score: 0.1951 Model
+Epoch 5 - avg_train_loss: 0.0102  avg_val_loss: 0.0190  time: 336s
+Epoch 5 - Score: 0.1948  Scores: [0.19482851202960752]
+Epoch 5 - Save Best Score: 0.1948 Model
+========== fold: 1 result ==========
+Score: 0.1948  Scores: [0.19482851202960752]
+========== fold: 2 training ==========
+BackTranslation ['de', 'es', 'fr']
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-large",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 1024,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+

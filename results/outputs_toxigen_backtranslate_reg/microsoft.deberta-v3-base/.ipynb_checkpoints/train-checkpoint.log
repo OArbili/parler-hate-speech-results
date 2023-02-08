@@ -1,0 +1,133 @@
+max_len: 512
+========== fold: 0 training ==========
+BackTranslation None
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-base",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 768,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+Epoch 1 - avg_train_loss: 0.0638  avg_val_loss: 0.0597  time: 1441s
+Epoch 1 - Score: 0.3455  Scores: [0.3454937667464594]
+Epoch 1 - Save Best Score: 0.3455 Model
+========== fold: 0 training ==========
+BackTranslation ['de', 'es', 'fr']
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-base",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 768,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+load ../outputs_toxigen_backtranslate_reg//microsoft.deberta-v3-base/microsoft-deberta-v3-base_fold0_pre.pth
+Epoch 1 - avg_train_loss: 0.0274  avg_val_loss: 0.0269  time: 161s
+Epoch 1 - Score: 0.2319  Scores: [0.23188784505140278]
+Epoch 1 - Save Best Score: 0.2319 Model
+Epoch 2 - avg_train_loss: 0.0210  avg_val_loss: 0.0217  time: 161s
+Epoch 2 - Score: 0.2082  Scores: [0.20821889797185633]
+Epoch 2 - Save Best Score: 0.2082 Model
+Epoch 3 - avg_train_loss: 0.0179  avg_val_loss: 0.0200  time: 146s
+Epoch 3 - Score: 0.2000  Scores: [0.19998595249204612]
+Epoch 3 - Save Best Score: 0.2000 Model
+Epoch 4 - avg_train_loss: 0.0143  avg_val_loss: 0.0204  time: 159s
+Epoch 4 - Score: 0.2017  Scores: [0.20174981519416427]
+Epoch 5 - avg_train_loss: 0.0123  avg_val_loss: 0.0195  time: 194s
+Epoch 5 - Score: 0.1977  Scores: [0.19772882446172835]
+Epoch 5 - Save Best Score: 0.1977 Model
+========== fold: 0 result ==========
+Score: 0.1977  Scores: [0.19772882446172835]
+========== fold: 1 training ==========
+BackTranslation ['de', 'es', 'fr']
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-base",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 768,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+load ../outputs_toxigen_backtranslate_reg//microsoft.deberta-v3-base/microsoft-deberta-v3-base_fold0_pre.pth

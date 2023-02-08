@@ -1,0 +1,59 @@
+max_len: 512
+========== fold: 0 training ==========
+BackTranslation None
+DebertaV2Config {
+  "_name_or_path": "Narrativaai/deberta-v3-small-finetuned-hate_speech18",
+  "architectures": [
+    "DebertaV2ForSequenceClassification"
+  ],
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "NO_HATE",
+    "1": "HATE",
+    "2": "IDK",
+    "3": "RELATION"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "HATE": 1,
+    "IDK": 2,
+    "NO_HATE": 0,
+    "RELATION": 3
+  },
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 6,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 768,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+Epoch 1 - avg_train_loss: 0.0307  avg_val_loss: 0.0227  time: 81s
+Epoch 1 - Score: 0.2130  Scores: [0.21302245311652154]
+Epoch 1 - Save Best Score: 0.2130 Model
+Epoch 2 - avg_train_loss: 0.0192  avg_val_loss: 0.0232  time: 81s
+Epoch 2 - Score: 0.2155  Scores: [0.21553962909706822]

@@ -1,0 +1,209 @@
+max_len: 512
+========== fold: 0 training ==========
+BackTranslation None
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-large",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 1024,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+Epoch 1 - avg_train_loss: 0.0296  avg_val_loss: 0.0209  time: 338s
+Epoch 1 - Score: 0.2042  Scores: [0.20420627354656193]
+Epoch 1 - Save Best Score: 0.2042 Model
+Epoch 2 - avg_train_loss: 0.0158  avg_val_loss: 0.0190  time: 339s
+Epoch 2 - Score: 0.1947  Scores: [0.19473745661759306]
+Epoch 2 - Save Best Score: 0.1947 Model
+Epoch 3 - avg_train_loss: 0.0085  avg_val_loss: 0.0212  time: 339s
+Epoch 3 - Score: 0.2058  Scores: [0.20575493934590675]
+Epoch 4 - avg_train_loss: 0.0051  avg_val_loss: 0.0192  time: 338s
+Epoch 4 - Score: 0.1960  Scores: [0.19597801007713603]
+Epoch 5 - avg_train_loss: 0.0033  avg_val_loss: 0.0191  time: 338s
+Epoch 5 - Score: 0.1952  Scores: [0.19524514805558257]
+========== fold: 0 result ==========
+Score: 0.1947  Scores: [0.19473745661759306]
+========== fold: 1 training ==========
+BackTranslation None
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-large",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 1024,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+Epoch 1 - avg_train_loss: 0.0321  avg_val_loss: 0.0225  time: 335s
+Epoch 1 - Score: 0.2119  Scores: [0.2119385672504089]
+Epoch 1 - Save Best Score: 0.2119 Model
+Epoch 2 - avg_train_loss: 0.0141  avg_val_loss: 0.0185  time: 335s
+Epoch 2 - Score: 0.1923  Scores: [0.19228778299048396]
+Epoch 2 - Save Best Score: 0.1923 Model
+Epoch 3 - avg_train_loss: 0.0086  avg_val_loss: 0.0202  time: 337s
+Epoch 3 - Score: 0.2011  Scores: [0.20109964612323097]
+Epoch 4 - avg_train_loss: 0.0051  avg_val_loss: 0.0194  time: 336s
+Epoch 4 - Score: 0.1968  Scores: [0.19683254118821072]
+Epoch 5 - avg_train_loss: 0.0036  avg_val_loss: 0.0195  time: 336s
+Epoch 5 - Score: 0.1973  Scores: [0.1973342759153606]
+========== fold: 1 result ==========
+Score: 0.1923  Scores: [0.19228778299048396]
+========== fold: 2 training ==========
+BackTranslation None
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-large",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 1024,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+Epoch 1 - avg_train_loss: 0.0296  avg_val_loss: 0.0406  time: 338s
+Epoch 1 - Score: 0.2848  Scores: [0.28483579291183003]
+Epoch 1 - Save Best Score: 0.2848 Model
+Epoch 2 - avg_train_loss: 0.0176  avg_val_loss: 0.0220  time: 335s
+Epoch 2 - Score: 0.2096  Scores: [0.20964749261543766]
+Epoch 2 - Save Best Score: 0.2096 Model
+Epoch 3 - avg_train_loss: 0.0077  avg_val_loss: 0.0210  time: 339s
+Epoch 3 - Score: 0.2048  Scores: [0.20477344202443973]
+Epoch 3 - Save Best Score: 0.2048 Model
+Epoch 4 - avg_train_loss: 0.0046  avg_val_loss: 0.0204  time: 337s
+Epoch 4 - Score: 0.2020  Scores: [0.20198438627144716]
+Epoch 4 - Save Best Score: 0.2020 Model
+Epoch 5 - avg_train_loss: 0.0031  avg_val_loss: 0.0206  time: 336s
+Epoch 5 - Score: 0.2028  Scores: [0.20282691407823034]
+========== fold: 2 result ==========
+Score: 0.2020  Scores: [0.20198438627144716]
+========== fold: 3 training ==========
+BackTranslation None
+DebertaV2Config {
+  "_name_or_path": "microsoft/deberta-v3-large",
+  "attention_dropout": 0.0,
+  "attention_probs_dropout_prob": 0.0,
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.0,
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "layer_norm_eps": 1e-07,
+  "max_position_embeddings": 512,
+  "max_relative_positions": -1,
+  "model_type": "deberta-v2",
+  "norm_rel_ebd": "layer_norm",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_hidden_states": true,
+  "pad_token_id": 0,
+  "pooler_dropout": 0,
+  "pooler_hidden_act": "gelu",
+  "pooler_hidden_size": 1024,
+  "pos_att_type": [
+    "p2c",
+    "c2p"
+  ],
+  "position_biased_input": false,
+  "position_buckets": 256,
+  "relative_attention": true,
+  "share_att_key": true,
+  "transformers_version": "4.21.2",
+  "type_vocab_size": 0,
+  "vocab_size": 128100
+}
+
+Epoch 1 - avg_train_loss: 0.0290  avg_val_loss: 0.0268  time: 336s
+Epoch 1 - Score: 0.2314  Scores: [0.231439754238591]
+Epoch 1 - Save Best Score: 0.2314 Model
+Epoch 2 - avg_train_loss: 0.0148  avg_val_loss: 0.0211  time: 338s
+Epoch 2 - Score: 0.2056  Scores: [0.20556479969581595]
+Epoch 2 - Save Best Score: 0.2056 Model
+Epoch 3 - avg_train_loss: 0.0076  avg_val_loss: 0.0217  time: 337s
+Epoch 3 - Score: 0.2082  Scores: [0.20823561194209442]
+Epoch 4 - avg_train_loss: 0.0040  avg_val_loss: 0.0216  time: 339s
+Epoch 4 - Score: 0.2080  Scores: [0.20795271313353503]
+Epoch 5 - avg_train_loss: 0.0023  avg_val_loss: 0.0215  time: 340s
+Epoch 5 - Score: 0.2075  Scores: [0.20751839649147444]
+========== fold: 3 result ==========
+Score: 0.2056  Scores: [0.20556479969581595]
+========== CV ==========
+Score: 0.1987  Scores: [0.19871610736019968]
